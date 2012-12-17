@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/menu" >
+    
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ff"
+        android:background="@drawable/ff"/>
+    
+    <ImageButton 
+        android:id="@+id/ibItem01"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/item1"
+        android:background="@drawable/item1"/>
+
+    <ImageButton 
+        android:id="@+id/ibItem02"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/item2"
+        android:background="@drawable/item2"/>
+    
+    <ImageButton 
+        android:id="@+id/ibItem03"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/item3"
+        android:background="@drawable/item3"/>
+    
+    <ImageButton 
+        android:id="@+id/ibItem04"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/item4"
+        android:background="@drawable/item4"/>
+    
+    <ImageView
+        android:id="@+id/ivDescricao"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />        
+    
+</LinearLayout>
